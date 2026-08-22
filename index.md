@@ -5,7 +5,12 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+Hi! My name is **Meryl Chen**. This portfolio documents my CSA learning, projects, and growth through the software development life cycle.
+
+<div style="margin: 1.25rem 0; padding: 1rem 1.15rem; border: 1px solid #7c3aed; border-radius: 10px; background: rgba(124, 58, 237, 0.08);">
+  <strong>Sprint 1 checkpoint:</strong>
+  <a href="{{ site.baseurl }}/sprint-1-checkpoint/">See my portfolio setup, SDLC process, Unit 1–4 progress, and unicorn idea →</a>
+</div>
 
 ### Development Environment
 
@@ -39,6 +44,11 @@ Hi! My name is [Your Full Name]
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csa-delivery/" style="text-decoration: none;">
+        <div style="background-color: #ffd400; color: #211c12; padding: 10px 20px; border: 2px solid #211c12; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           🛵 CSA Delivery Game
+        </div>
+    </a>
     <a href="{{site.baseurl}}/code/javascript" style="text-decoration: none;">
         <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
            JS Basics
