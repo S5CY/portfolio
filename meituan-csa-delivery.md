@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "美团小鼠 CSA Delivery"
+title: "MeiTuan Mouse CSA Delivery"
 permalink: /csa-delivery/
 description: A gamified delivery route through CSA Units 1–4.
 hide: true
 show_reading_time: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/meituan-csa.css' | relative_url }}?v=2">
+<link rel="stylesheet" href="{{ '/assets/css/meituan-csa.css' | relative_url }}?v=4">
 
 <main id="csa-delivery-game" class="delivery-game" aria-labelledby="game-title">
   <section class="delivery-hero">
     <div class="hero-copy">
       <p class="eyebrow">WELCOME, ROOKIE COURIER</p>
-      <h1 id="game-title">美团小鼠<br><span>CSA Delivery</span></h1>
+      <h1 id="game-title">MeiTuan Mouse<br><span>CSA Delivery</span></h1>
       <p class="hero-text">Deliver Java knowledge across four districts. Finish lessons, earn cheese coins, and defeat each unit quiz.</p>
       <div class="hero-actions">
         <button id="continue-route" class="game-button game-button-primary" type="button">Start delivery</button>
@@ -90,12 +90,22 @@ show_reading_time: false
 
 <dialog id="lesson-dialog" class="game-dialog">
   <button class="dialog-close" type="button" aria-label="Close">×</button>
-  <p class="eyebrow">DELIVERY ORDER</p>
-  <h2 id="dialog-title">Lesson</h2>
-  <p id="dialog-description"></p>
+  <div class="lesson-dialog-heading">
+    <img id="lesson-mascot" src="{{ '/images/meituan-csa/masked.png' | relative_url }}" alt="MeiTuan Mouse lesson guide">
+    <div><p class="eyebrow">DELIVERY LESSON</p><h2 id="dialog-title">Lesson</h2></div>
+  </div>
+  <p id="dialog-description" class="lesson-intro"></p>
+  <div id="mini-lesson" class="mini-lesson"></div>
+  <section class="lesson-checkpoint" aria-labelledby="checkpoint-title">
+    <p class="eyebrow">DELIVERY CHECKPOINT</p>
+    <h3 id="checkpoint-title">Answer to finish this stop</h3>
+    <p id="lesson-question"></p>
+    <div id="lesson-answers" class="lesson-answers"></div>
+    <p id="lesson-feedback" class="lesson-feedback" aria-live="polite"></p>
+  </section>
   <div class="dialog-actions">
-    <a id="open-lesson" class="game-button game-button-secondary" href="#" target="_blank" rel="noopener">Open lesson ↗</a>
-    <button id="complete-lesson" class="game-button game-button-primary" type="button">Mark delivered</button>
+    <a id="open-lesson" class="game-button game-button-secondary" href="#" target="_blank" rel="noopener">Original lesson ↗</a>
+    <button id="complete-lesson" class="game-button game-button-primary" type="button" disabled>Answer first</button>
   </div>
 </dialog>
 
@@ -112,4 +122,4 @@ show_reading_time: false
   </ol>
 </dialog>
 
-<script src="{{ '/assets/js/meituan-csa.js' | relative_url }}?v=2" defer></script>
+<script src="{{ '/assets/js/meituan-csa.js' | relative_url }}?v=4" defer></script>
