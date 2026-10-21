@@ -9,7 +9,7 @@ Hi! My name is **Meryl Chen**. This portfolio documents my CSA learning, project
 
 <div style="margin: 1.25rem 0; padding: 1rem 1.15rem; border: 1px solid #7c3aed; border-radius: 10px; background: rgba(124, 58, 237, 0.08);">
   <strong>Trimester 1 Sprint:</strong>
-  <a href="{{ site.baseurl }}/trimester-1-sprint/">Explore my complete timeline of projects, lessons, team contributions, and AP CSA growth →</a>
+  <a href="{{ site.baseurl }}/trimester-1-sprint/">See my projects, team contributions, and AP CSA reflection →</a>
 </div>
 
 ### Development Environment
