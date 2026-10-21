@@ -12,7 +12,7 @@ show_reading_time: false
 <div class="sprint-page">
   <section class="sprint-hero">
     <span class="sprint-kicker">AP Computer Science A</span>
-    <h1>Building tools that help students learn.</h1>
+    <h1>Trimester 1 Project Summary</h1>
     <p>This trimester, I moved beyond completing assignments and started creating learning experiences for other students. My work combined game design, JavaScript, Python, testing, technical writing, and team collaboration.</p>
     <div class="sprint-tags">
       <span class="sprint-tag">JavaScript</span>
@@ -30,7 +30,6 @@ show_reading_time: false
 
     <div class="sprint-grid">
       <article class="sprint-card">
-        <div class="sprint-card-icon">🛵</div>
         <h3>MeiTuan Mouse CSA Delivery</h3>
         <p>I transformed CSA Units 1–4 into a delivery game instead of presenting the material as a plain collection of links.</p>
         <ul>
@@ -45,7 +44,6 @@ show_reading_time: false
       </article>
 
       <article class="sprint-card">
-        <div class="sprint-card-icon">🐧</div>
         <h3>Linux Setup Agent</h3>
         <p>I helped build a tool that checks a student's development environment and turns confusing setup failures into clear next steps.</p>
         <ul>
@@ -61,7 +59,6 @@ show_reading_time: false
       </article>
 
       <article class="sprint-card">
-        <div class="sprint-card-icon">📚</div>
         <h3>AP CSA Unit 4 Lessons</h3>
         <p>I created three student-facing lessons and improved them through repeated review so they were accurate, organized, and easier to learn from.</p>
         <ul>
