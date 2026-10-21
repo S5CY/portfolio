@@ -8,8 +8,8 @@ show_reading_time: false
 Hi! My name is **Meryl Chen**. This portfolio documents my CSA learning, projects, and growth through the software development life cycle.
 
 <div style="margin: 1.25rem 0; padding: 1rem 1.15rem; border: 1px solid #7c3aed; border-radius: 10px; background: rgba(124, 58, 237, 0.08);">
-  <strong>Sprint 1 checkpoint:</strong>
-  <a href="{{ site.baseurl }}/sprint-1-checkpoint/">See my portfolio setup, SDLC process, Unit 1–4 progress, and unicorn idea →</a>
+  <strong>Trimester 1 Sprint:</strong>
+  <a href="{{ site.baseurl }}/trimester-1-sprint/">Explore my complete timeline of projects, lessons, team contributions, and AP CSA growth →</a>
 </div>
 
 ### Development Environment
