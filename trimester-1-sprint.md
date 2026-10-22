@@ -7,7 +7,7 @@ hide: true
 show_reading_time: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/trimester-sprint.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/trimester-sprint.css' | relative_url }}?v=4">
 
 <div class="sprint-page">
   <section class="sprint-hero">
