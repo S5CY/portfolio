@@ -14,14 +14,7 @@ show_reading_time: false
     <span class="sprint-kicker">AP Computer Science A</span>
     <h1>Trimester 1 Project Summary</h1>
     <p>This trimester, I moved beyond completing assignments and started creating learning experiences for other students. My work combined game design, JavaScript, Python, testing, technical writing, and team collaboration.</p>
-    <div class="sprint-tags">
-      <span class="sprint-tag">JavaScript</span>
-      <span class="sprint-tag">Python</span>
-      <span class="sprint-tag">AP CSA</span>
-      <span class="sprint-tag">Testing</span>
-      <span class="sprint-tag">GitHub</span>
-      <span class="sprint-tag">UI Design</span>
-    </div>
+
   </section>
 
   <section class="sprint-section">
